@@ -15,8 +15,8 @@ declare -A N_SHARD_DICT
 
 N_SHARD_DICT["7B"]="0"
 N_SHARD_DICT["13B"]="1"
-N_SHARD_DICT["30B"]="3"
-N_SHARD_DICT["65B"]="7"
+#N_SHARD_DICT["30B"]="3"
+#N_SHARD_DICT["65B"]="7"
 
 echo "Downloading tokenizer"
 wget ${PRESIGNED_URL/'*'/"tokenizer.model"} -O ${TARGET_FOLDER}"/tokenizer.model"
